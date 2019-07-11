@@ -1,0 +1,78 @@
+#logo {
+	width: 150px;
+	height: auto;
+}
+
+.svg{
+	height: 100%;
+	width: auto;
+}
+
+.btn:focus{
+	box-shadow: none;
+}
+
+.bg-primary {
+    background: #55dde0;
+    background: -webkit-gradient(linear,left top,left bottom,from(#55dde0),to(#55ddd0));
+    background: linear-gradient(#55dde0,#55ddd0);
+}
+
+.btn-primary {
+	text-transform: none;
+	background-color: #715aff;
+	border-color: #715aff;
+		font-size: 14px;
+}
+
+a.btn-primary:focus, a.btn-primary:hover {
+	background: #3E27CC;
+	border-color: #3E27CC;
+	color: #fff;
+}
+
+a:focus, a:hover {
+    color: #55dde0;
+}
+#mainNav .navbar-nav>li>a {
+	text-transform: none;
+	font-size: 14px;
+}
+
+#mainNav .navbar-nav>li>a.active, #mainNav.navbar-shrink .navbar-nav>li>a:focus:hover, #mainNav.navbar-shrink .navbar-nav>li>a:hover{
+	color: #55dde0!important;
+}
+#mainNav.navbar-shrink .navbar-nav>li>a{
+	color: #444;
+}
+
+header.masthead {
+	background: url("../img/background.svg") no-repeat;
+	background-size: cover;
+}
+
+header.masthead > *, .header-content h1, .header-content a{
+	z-index: 100;
+}
+
+header.masthead::after {
+	z-index: 1;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 85%;
+	height: 85%;
+	background: url("../img/cpu.svg") no-repeat right bottom;
+}
+
+
+footer {
+	background: #003333;
+}
+
+section.features .feature-item i{
+	background: -webkit-gradient(linear,right top,left top,from(#55dde0),to(#615aff));
+    background: linear-gradient(to left,#55dde0,#715aff);
+    -webkit-background-clip: text;
+}
