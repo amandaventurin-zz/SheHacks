@@ -13,9 +13,9 @@
 }
 
 .bg-primary {
-    background: #55dde0;
-    background: -webkit-gradient(linear,left top,left bottom,from(#55dde0),to(#55ddd0));
-    background: linear-gradient(#55dde0,#55ddd0);
+    background: #e08dac;
+    background: -webkit-gradient(linear,left top,left bottom,from(#e08dac),to(#e08dac));
+    background: linear-gradient(#e08dac,#e08dac);
 }
 
 .btn-primary {
@@ -23,6 +23,10 @@
 	background-color: #715aff;
 	border-color: #715aff;
 		font-size: 14px;
+}
+
+.text-muted {
+	color : #000000!important;
 }
 
 a.btn-primary:focus, a.btn-primary:hover {
