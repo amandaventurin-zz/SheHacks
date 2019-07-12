@@ -81,6 +81,14 @@ footer {
 	color: #e08dac;
 }
 
+.card p.text-muted {
+	position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+}
+
 section.features .feature-item i {
 	background: -webkit-gradient(linear,right top,left top,from(#55dde0),to(#615aff));
     background: linear-gradient(to left,#55dde0,#715aff);
@@ -90,4 +98,11 @@ section.features .feature-item i {
 section.features.bg-primary .feature-item i {
 	background: #e08dac;
     -webkit-background-clip: text;
+}
+
+@media (min-width: 992px)
+#mainNav.navbar-shrink {
+    border-color: rgba(34,34,34,.1);
+    background-color: #fefefe;
+    box-shadow: 0px -5px 10px 0 #888;
 }
