@@ -12,21 +12,11 @@
 	box-shadow: none;
 }
 
-.bg-primary {
-    background: #e08dac;
-    background: -webkit-gradient(linear,left top,left bottom,from(#e08dac),to(#e08dac));
-    background: linear-gradient(#e08dac,#e08dac);
-}
-
 .btn-primary {
 	text-transform: none;
 	background-color: #715aff;
 	border-color: #715aff;
 		font-size: 14px;
-}
-
-.text-muted {
-	color : #000000!important;
 }
 
 a.btn-primary:focus, a.btn-primary:hover {
@@ -57,10 +47,11 @@ header.masthead {
 
 header.masthead > *, .header-content h1, .header-content a{
 	z-index: 100;
+	position: relative;
 }
 
 header.masthead::after {
-	z-index: 1;
+	z-index: 0;
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -75,8 +66,28 @@ footer {
 	background: #003333;
 }
 
-section.features .feature-item i{
+.bg-primary {
+    background: #e08dac;
+    background: -webkit-gradient(linear,left top,left bottom,from(#e08dac),to(#ffa1c4));
+    background: linear-gradient(#e08dac,#ffa1c4);
+    color: #eee;
+}
+
+.bg-primary .card {
+	color: #845667;
+}
+
+.bg-primary .text-muted {
+	color: #e08dac;
+}
+
+section.features .feature-item i {
 	background: -webkit-gradient(linear,right top,left top,from(#55dde0),to(#615aff));
     background: linear-gradient(to left,#55dde0,#715aff);
+    -webkit-background-clip: text;
+}
+
+section.features.bg-primary .feature-item i {
+	background: #e08dac;
     -webkit-background-clip: text;
 }
