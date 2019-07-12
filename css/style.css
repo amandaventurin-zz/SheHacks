@@ -34,10 +34,10 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-nav>li>a.active, #mainNav.navbar-shrink .navbar-nav>li>a:focus:hover, #mainNav.navbar-shrink .navbar-nav>li>a:hover{
-	color: #55dde0!important;
+	color: #715aff!important;
 }
 #mainNav.navbar-shrink .navbar-nav>li>a{
-	color: #444;
+	color: #777;
 }
 
 header.masthead {
